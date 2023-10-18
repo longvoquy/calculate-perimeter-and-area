@@ -4,8 +4,7 @@ public class Rectangle extends Shape {
     private double w;
     private double l;
 
-    public Rectangle() {
-    }
+
 
     public Rectangle(double w, double l) {
         this.w = w;
@@ -32,19 +31,5 @@ public class Rectangle extends Shape {
         System.out.println("Perimeter: " + getPerimeter());
     }
 
-    public double getW() {
-        return w;
-    }
 
-    public void setW(double w) {
-        this.w = w;
-    }
-
-    public double getL() {
-        return l;
-    }
-
-    public void setL(double l) {
-        this.l = l;
-    }
 }

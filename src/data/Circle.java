@@ -3,8 +3,7 @@ package data;
 public class Circle extends Shape {
     private double r;
 
-    public Circle() {
-    }
+
 
     public Circle(double r) {
         this.r = r;
@@ -28,11 +27,5 @@ public class Circle extends Shape {
         System.out.println("Perimeter: " + getPerimeter());
     }
 
-    public double getRadius() {
-        return r;
-    }
 
-    public void setRadius(double r) {
-        this.r = r;
-    }
 }
